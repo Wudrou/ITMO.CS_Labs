@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.4_Divider", "L1.4_Divide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.1_BankAccount", "L2.1_BankAccount\L2.1_BankAccount.csproj", "{73CFB294-B968-4718-8D8A-46B240F50F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.1_StructType", "L2.1_StructType\L2.1_StructType.csproj", "{52922250-83B0-4A7F-9BE0-D2A5B0E1EB3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.2_StructType", "L2.1_StructType\L2.2_StructType.csproj", "{52922250-83B0-4A7F-9BE0-D2A5B0E1EB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
