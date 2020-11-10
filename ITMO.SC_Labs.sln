@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.1_Greetings", "L1.1_Greetings\L1.1_Greetings.csproj", "{7A6AE4FB-F993-4BC5-875A-B1BF75D3B00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.4_Divider", "L1.4_Divider\L1.4_Divider.csproj", "{58EBFA21-51FD-4182-A471-5CD19D4442B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A6AE4FB-F993-4BC5-875A-B1BF75D3B00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6AE4FB-F993-4BC5-875A-B1BF75D3B00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6AE4FB-F993-4BC5-875A-B1BF75D3B00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6AE4FB-F993-4BC5-875A-B1BF75D3B00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5258541-1B5D-4592-9EAB-9B17A68BEEA1}
+	EndGlobalSection
+EndGlobal
