@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace L2._1_BankAccount
 {
-    public enum AccountType
+    public enum AccountType          //добавление перечисления AccountType
     {
         Checking, Deposit
     }
