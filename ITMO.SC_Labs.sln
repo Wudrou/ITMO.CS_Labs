@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.1_Greetings", "L1.1_Gree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.4_Divider", "L1.4_Divider\L1.4_Divider.csproj", "{58EBFA21-51FD-4182-A471-5CD19D4442B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.1_BankAccount", "L2.1_BankAccount\L2.1_BankAccount.csproj", "{73CFB294-B968-4718-8D8A-46B240F50F20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EBFA21-51FD-4182-A471-5CD19D4442B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CFB294-B968-4718-8D8A-46B240F50F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CFB294-B968-4718-8D8A-46B240F50F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CFB294-B968-4718-8D8A-46B240F50F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CFB294-B968-4718-8D8A-46B240F50F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
