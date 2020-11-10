@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L2._1_StructType
+namespace L2._2_StructType
 {
     public enum AccountType
     {
