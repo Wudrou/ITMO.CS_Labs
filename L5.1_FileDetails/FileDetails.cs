@@ -30,7 +30,7 @@ namespace L5._1_FileDetails
                     lines++;
                 }
             }
-            Console.WriteLine("Количество символов в файле: {0}", contents.Length);
+            Console.WriteLine("\nКоличество символов в файле: {0}", contents.Length);
             Console.WriteLine("Количество гласных в файле: {0}", vowels);
             Console.WriteLine("Количество согласных в файле: {0}", consonants);
             Console.WriteLine("Количество строк в файле: {0}", lines);
@@ -58,8 +58,6 @@ namespace L5._1_FileDetails
             {
                 Console.Write(ch);
             }
-
-            Console.WriteLine(" ");
 
             Summorize(contents);
 
