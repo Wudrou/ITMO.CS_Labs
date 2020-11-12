@@ -27,11 +27,19 @@ namespace L3_WhatDay
         {
             try
             {
-                Console.Write("Please enter a day number between 1 and 365: ");
+                Console.Write("Please enter the year: ");
                 string line = Console.ReadLine();
+                int yearNum = int.Parse(line);
+
+                bool isLeapYear = (yearNum % 4 == 0) && (yearNum % 100 != 0 || yearNum % 400 == 0);
+
+                int maxDayNum = isLeapYear ? 366 : 365;
+
+                Console.Write("Please enter a day number between 1 and {0}: ", maxDayNum);
+                line = Console.ReadLine();
                 int dayNum = int.Parse(line);
 
-                if(dayNum < 1 || dayNum >365)
+                if(dayNum < 1 || dayNum >maxDayNum)
                 {
                     throw new ArgumentOutOfRangeException("Day out of range");
                 }
@@ -39,17 +47,36 @@ namespace L3_WhatDay
                 int monthNum = 0;
 
                 List<int> DaysInMonths = new List<int> { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+                List<int> DaysInLeapMonths = new List<int> { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-                foreach (int daysInMonth in DaysInMonths)
+                if (isLeapYear)
                 {
-                    if (dayNum <= daysInMonth)
+                    foreach (int daysInMonth in DaysInLeapMonths)
                     {
-                        break;
+                        if (dayNum <= daysInMonth)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            dayNum = dayNum - daysInMonth;
+                            monthNum++;
+                        }
                     }
-                    else
+                }
+                else
+                {
+                    foreach (int daysInMonth in DaysInMonths)
                     {
-                        dayNum = dayNum - daysInMonth;
-                        monthNum++;
+                        if (dayNum <= daysInMonth)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            dayNum = dayNum - daysInMonth;
+                            monthNum++;
+                        }
                     }
                 }
 
