@@ -47,12 +47,16 @@ namespace L5._2_MatrixMultiply
         static void Main(string[] args)
         {
             int[,] a = new int[2, 2];
+            Console.WriteLine("Entering values for first array");
             Input(a);
 
-            int[,] b = new int[2, 2] { { 5, 6 }, { 7, 8 } };
+            int[,] b = new int[2, 2];
+            Console.WriteLine("Entering values for second array");
+            Input(b);
 
             int[,] result = Multiply(a, b);
 
+            Console.WriteLine("Result of multiplication arrays:");
             OutPut(result);
 
             Console.ReadKey();
