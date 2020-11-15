@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3_WhatDay", "L3_WhatDay\L3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_Utils", "L4_Utils\L4_Utils.csproj", "{7102710F-352E-4F60-BE63-228D2DD66C7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5.2_MatrixMultiply", "L5.2_MatrixMultiply\L5.2_MatrixMultiply.csproj", "{48BD1C4B-9E55-48B2-B300-778A75CD340E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7102710F-352E-4F60-BE63-228D2DD66C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7102710F-352E-4F60-BE63-228D2DD66C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7102710F-352E-4F60-BE63-228D2DD66C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BD1C4B-9E55-48B2-B300-778A75CD340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BD1C4B-9E55-48B2-B300-778A75CD340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BD1C4B-9E55-48B2-B300-778A75CD340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BD1C4B-9E55-48B2-B300-778A75CD340E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
