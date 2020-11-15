@@ -25,6 +25,32 @@ namespace L4_Utils
             a = b;
             b = temp;
         }
+        static bool Factorial(int n, out int answer)
+        {
+            int k;
+            int f;
+            bool ok = true;
+            if (n < 0)
+            ok = false;
+            try
+            {
+                checked
+                {
+                    f = 1;
+                    for (k = 2; k <= n; ++k)
+                    {
+                        f = f * k;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                f = 0;
+                ok = false;
+            }
+            answer = f;
+            return ok;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Enter first number:");
@@ -32,12 +58,29 @@ namespace L4_Utils
             Console.WriteLine("Enter second number:");
             int y = int.Parse(Console.ReadLine());
 
+            //Using Greater
             int greater = Greater(x, y);
             Console.WriteLine("The greater value is " + greater);
 
+            //Using Swap
             Console.WriteLine("Before swap: " + x + "," + y);
             Swap(ref x, ref y);
             Console.WriteLine("After swap: " + x + "," + y);
+
+            //Using Factorial
+            int f;
+            bool ok;
+            Console.WriteLine("Number for factorial:");
+            x = int.Parse(Console.ReadLine());
+            ok = Factorial(x, out f);
+            if (ok)
+            {
+                Console.WriteLine("Factorial(" + x + ") = " + f);
+            }
+            else
+            {
+                Console.WriteLine("Cannot compute this factorial");
+            }
 
             Console.ReadKey();
         }
