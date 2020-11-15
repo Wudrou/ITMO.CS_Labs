@@ -22,19 +22,28 @@ namespace L5._2_MatrixMultiply
         static int[,] Multiply(int[,] a, int[,] b)
         {
             int[,] result = new int[2, 2];
-            result[0, 0] = a[0, 0] * b[0, 0] + a[0, 1] * b[1, 0];
-            result[0, 1] = a[0, 0] * b[0, 1] + a[0, 1] * b[1, 1];
-            result[1, 0] = a[1, 0] * b[0, 0] + a[1, 1] * b[1, 0];
-            result[1, 1] = a[1, 0] * b[0, 1] + a[1, 1] * b[1, 1];
+            for (int r = 0; r < 2; r++)
+            {
+                for (int c = 0; c < 2; c++)
+                {
+                    result[r, c] += a[r, 0] * b[0, c] + a[r, 1] * b[1, c];
+                }
+            }
             return result;
         }
-
         static void Main(string[] args)
         {
-            int[,] a = new int[2, 2] { { 1, 2 }, { 3, 4 } };
+            Console.WriteLine("Enter four numbers:");
+            int[,] a = new int[2, 2];
+            a[0, 0] = int.Parse(Console.ReadLine());
+            a[0, 1] = int.Parse(Console.ReadLine());
+            a[1, 0] = int.Parse(Console.ReadLine());
+            a[1, 1] = int.Parse(Console.ReadLine());
+
             int[,] b = new int[2, 2] { { 5, 6 }, { 7, 8 } };
 
             int[,] result = Multiply(a, b);
+
             OutPut(result);
 
             Console.ReadKey();
