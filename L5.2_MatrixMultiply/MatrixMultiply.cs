@@ -31,14 +31,23 @@ namespace L5._2_MatrixMultiply
             }
             return result;
         }
+        static void Input(int[,] dst)
+        {
+            for (int r = 0; r < 2; r++)
+            {
+                for (int c = 0; c < 2; c++)
+                {
+                    Console.Write("Enter value for [{0},{1}] : ", r, c);
+                    string s = Console.ReadLine();
+                    dst[r, c] = int.Parse(s);
+                }
+            }
+            Console.WriteLine();
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter four numbers:");
             int[,] a = new int[2, 2];
-            a[0, 0] = int.Parse(Console.ReadLine());
-            a[0, 1] = int.Parse(Console.ReadLine());
-            a[1, 0] = int.Parse(Console.ReadLine());
-            a[1, 1] = int.Parse(Console.ReadLine());
+            Input(a);
 
             int[,] b = new int[2, 2] { { 5, 6 }, { 7, 8 } };
 
