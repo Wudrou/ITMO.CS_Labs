@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace L6_CreateAccount
 {
-    struct BankAccount
+    class BankAccount
     {
         public long accNo;
         public decimal accBal;
@@ -17,7 +17,6 @@ namespace L6_CreateAccount
         Checking,
         Deposit
     }
-
     class CreateAccount
     {
         static void Main(string[] args)
@@ -27,10 +26,12 @@ namespace L6_CreateAccount
 
             BankAccount freds = NewBankAccount();
             Write(freds);
+
+            Console.ReadKey();
         }
         static BankAccount NewBankAccount()
         {
-            BankAccount created;
+            BankAccount created = new BankAccount();
 
             Console.Write("Enter the account number   : ");
             long number = long.Parse(Console.ReadLine());
