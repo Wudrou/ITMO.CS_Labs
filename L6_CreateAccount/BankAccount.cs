@@ -34,5 +34,19 @@ namespace L6_CreateAccount
         {
             return nextAccNo++;
         }
+        public decimal Deposit(decimal amount)
+        {
+            accBal += amount;
+            return accBal;
+        }
+        public bool Withdraw(decimal amount)
+        {
+            bool sufficientFunds = accBal >= amount;
+            if(sufficientFunds)
+            {
+                accBal -= amount;
+            }
+            return sufficientFunds;
+        }
     }
 }
