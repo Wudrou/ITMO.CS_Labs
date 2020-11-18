@@ -6,31 +6,6 @@ using System.Threading.Tasks;
 
 namespace L6_CreateAccount
 {
-    class BankAccount
-    {
-        public void Populate(long number, decimal balance)
-        {
-            accNo = number;
-            accBal = balance;
-            accType = AccountType.Checking;
-        }
-
-        private long accNo;
-        private decimal accBal;
-        private AccountType accType;
-        public long Number()
-        {
-            return accNo;
-        }
-        public decimal Balance()
-        {
-            return accBal;
-        }
-        public string Type()
-        {
-            return accType.ToString();
-        }
-    }
     enum AccountType
     {
         Checking,
@@ -52,17 +27,12 @@ namespace L6_CreateAccount
         {
             BankAccount created = new BankAccount();
 
-            Console.Write("Enter the account number   : ");
-            long number = long.Parse(Console.ReadLine());
+            //long number = BankAccount.NextNumber();
 
             Console.Write("Enter the account balance! : ");
             decimal balance = decimal.Parse(Console.ReadLine());
 
-            //created.accNo = number;
-            //created.accBal = balance;
-            //created.accType = AccountType.Checking;
-
-            created.Populate(number, balance);
+            created.Populate(balance);
 
             return created;
         }
