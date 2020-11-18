@@ -26,9 +26,9 @@ namespace L6_CreateAccount
         {
             return accBal;
         }
-        public AccountType Type()
+        public string Type()
         {
-            return accType;
+            return accType.ToString();
         }
     }
     enum AccountType
