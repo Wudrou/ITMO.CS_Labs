@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.4_InterfaceTest", "L7.4_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.5_TestDisplay", "L7.5_TestDisplay\L7.5_TestDisplay.csproj", "{220BEC99-FC81-42E0-8FD5-7F43D58C7DC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8.1-2_Constructors", "L8.1-2_Constructors\L8.1-2_Constructors.csproj", "{100C6AD2-55F0-4355-A9EA-2BCDDB04A9EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{220BEC99-FC81-42E0-8FD5-7F43D58C7DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{220BEC99-FC81-42E0-8FD5-7F43D58C7DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{220BEC99-FC81-42E0-8FD5-7F43D58C7DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100C6AD2-55F0-4355-A9EA-2BCDDB04A9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100C6AD2-55F0-4355-A9EA-2BCDDB04A9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100C6AD2-55F0-4355-A9EA-2BCDDB04A9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100C6AD2-55F0-4355-A9EA-2BCDDB04A9EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
