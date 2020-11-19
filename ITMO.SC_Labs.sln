@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.1_BankAccount", "L7.1_Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.2_UtilsReverse", "L7.2_UtilsReverse\L7.2_UtilsReverse.csproj", "{99777041-B3A5-4979-8C06-86DD4587676C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.3_CopyFileUpper", "L7.3_CopyFileUpper\L7.3_CopyFileUpper.csproj", "{005981BA-6D06-4F3A-A9CE-445376A02962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{99777041-B3A5-4979-8C06-86DD4587676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99777041-B3A5-4979-8C06-86DD4587676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99777041-B3A5-4979-8C06-86DD4587676C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005981BA-6D06-4F3A-A9CE-445376A02962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005981BA-6D06-4F3A-A9CE-445376A02962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005981BA-6D06-4F3A-A9CE-445376A02962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005981BA-6D06-4F3A-A9CE-445376A02962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
