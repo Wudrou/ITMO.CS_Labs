@@ -73,13 +73,13 @@ namespace L8._1_2_Constructors
             }
             return sufficientFunds;
         }
-        public void TransferFrom(BankAccount accFrom, decimal amount)
-        {
-            if (accFrom.Withdraw(amount))
-            {
-                this.Deposit(amount);
-            }
-        }
+        //public void TransferFrom(BankAccount accFrom, decimal amount)
+        //{
+        //    if (accFrom.Withdraw(amount))
+        //    {
+        //        this.Deposit(amount);
+        //    }
+        //}
         static void Write(BankAccount acc)
         {
             Console.WriteLine("Account number is {0}", acc.Number());
