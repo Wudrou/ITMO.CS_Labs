@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,13 +13,14 @@ namespace L8._1_2_Constructors
         Checking,
         Deposit
     }
-    class BankAccount
+    sealed class BankAccount : IDisposable
     {
         private long accNo;
         private decimal accBal;
         private AccountType accType;
         private static long nextAccNo = 123;
         private Queue tranQueue = new Queue();
+        private bool disposed = false;
         public BankAccount()
         {
             accNo = NextNumber();
@@ -81,14 +83,29 @@ namespace L8._1_2_Constructors
         {
             return tranQueue;
         }
-        //public void TransferFrom(BankAccount accFrom, decimal amount)
-        //{
-        //    if (accFrom.Withdraw(amount))
-        //    {
-        //        this.Deposit(amount);
-        //    }
-        //}
-        static void Write(BankAccount acc)
+        public void Dispose()
+        {
+            if (!disposed)
+            {
+                StreamWriter swFile = File.AppendText("Transactions.Dat");
+                swFile.WriteLine("Account number is {0}", accNo);
+                swFile.WriteLine("Account balance is {0}", accBal);
+                swFile.WriteLine("Account type is {0}", accType);
+                swFile.WriteLine("Transactions:");
+                foreach (BankTransaction tran in tranQueue)
+                {
+                    swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
+                }
+                swFile.Close();
+                disposed = true;
+                GC.SuppressFinalize(this);
+            }
+        }
+        ~BankAccount()
+        {
+            Dispose();
+        }
+       static void Write(BankAccount acc)
         {
             Console.WriteLine("Account number is {0}", acc.Number());
             Console.WriteLine("Account balance is {0}", acc.Balance());
@@ -102,22 +119,20 @@ namespace L8._1_2_Constructors
         }
         static void Main()
         {
-            BankAccount acc1;
+            using (BankAccount acc1 = new BankAccount())
+            {
+                acc1.Deposit(100);
+                acc1.Withdraw(50);
+                acc1.Deposit(75);
+                acc1.Withdraw(50);
+                acc1.Withdraw(30);
+                acc1.Deposit(40);
+                acc1.Deposit(200);
+                acc1.Withdraw(250);
+                acc1.Deposit(25);
 
-            acc1 = new BankAccount();
-
-            acc1.Deposit(100);
-            acc1.Withdraw(50);
-            acc1.Deposit(75);
-            acc1.Withdraw(50);
-            acc1.Withdraw(30);
-            acc1.Deposit(40);
-            acc1.Deposit(200);
-            acc1.Withdraw(250);
-            acc1.Deposit(25);
-
-            Write(acc1);
-
+                Write(acc1);
+            }
             Console.ReadKey();
         }
     }
