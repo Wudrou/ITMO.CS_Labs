@@ -80,6 +80,12 @@ namespace L8._1_2_Constructors
                 this.Deposit(amount);
             }
         }
+        static void Write(BankAccount acc)
+        {
+            Console.WriteLine("Account number is {0}", acc.Number());
+            Console.WriteLine("Account balance is {0}", acc.Balance());
+            Console.WriteLine("Account type is {0}", acc.Type());
+        }
         static void Main()
         {
             BankAccount acc1, acc2, acc3, acc4;
