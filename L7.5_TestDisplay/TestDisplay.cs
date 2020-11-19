@@ -28,7 +28,7 @@ namespace L7._5_TestDisplay
 			Console.WriteLine("({0},{1})", x, y);
 		}
 	}
-	interface IRpintable
+	interface IPrintable
     {
         void Print();
     }
@@ -51,9 +51,9 @@ namespace L7._5_TestDisplay
 			string msg = "A String";
 			Coordinate c = new Coordinate(21.0, 68.0);
 
-			Utils.Display(num);
-			Utils.Display(msg);
-			Utils.Display(c);
+			Display(num);
+			Display(msg);
+			Display(c);
 
 			Console.ReadKey();
         }
