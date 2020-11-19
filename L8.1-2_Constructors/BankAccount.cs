@@ -102,17 +102,21 @@ namespace L8._1_2_Constructors
         }
         static void Main()
         {
-            BankAccount acc1, acc2, acc3, acc4;
+            BankAccount acc1;
 
             acc1 = new BankAccount();
-            acc2 = new BankAccount(AccountType.Deposit);
-            acc3 = new BankAccount(100);
-            acc4 = new BankAccount(AccountType.Deposit, 500);
+
+            acc1.Deposit(100);
+            acc1.Withdraw(50);
+            acc1.Deposit(75);
+            acc1.Withdraw(50);
+            acc1.Withdraw(30);
+            acc1.Deposit(40);
+            acc1.Deposit(200);
+            acc1.Withdraw(250);
+            acc1.Deposit(25);
 
             Write(acc1);
-            Write(acc2);
-            Write(acc3);
-            Write(acc4);
 
             Console.ReadKey();
         }
