@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,7 @@ namespace L8._1_2_Constructors
         private decimal accBal;
         private AccountType accType;
         private static long nextAccNo = 123;
+        private Queue tranQueue = new Queue();
         public BankAccount()
         {
             accNo = NextNumber();
@@ -29,14 +31,12 @@ namespace L8._1_2_Constructors
             accType = aType;
             accBal = 0;
         }
-
         public BankAccount(decimal aBal)
         {
             accNo = NextNumber();
             accType = AccountType.Checking;
             accBal = aBal;
         }
-
         public BankAccount(AccountType aType, decimal aBal)
         {
             accNo = NextNumber();
@@ -62,6 +62,8 @@ namespace L8._1_2_Constructors
         public decimal Deposit(decimal amount)
         {
             accBal += amount;
+            BankTransaction tran = new BankTransaction(amount);
+            tranQueue.Enqueue(tran);
             return accBal;
         }
         public bool Withdraw(decimal amount)
@@ -70,8 +72,14 @@ namespace L8._1_2_Constructors
             if (sufficientFunds)
             {
                 accBal -= amount;
+                BankTransaction tran = new BankTransaction(-amount);
+                tranQueue.Enqueue(tran);
             }
             return sufficientFunds;
+        }
+        public Queue Transactions()
+        {
+            return tranQueue;
         }
         //public void TransferFrom(BankAccount accFrom, decimal amount)
         //{
@@ -85,6 +93,12 @@ namespace L8._1_2_Constructors
             Console.WriteLine("Account number is {0}", acc.Number());
             Console.WriteLine("Account balance is {0}", acc.Balance());
             Console.WriteLine("Account type is {0}", acc.Type());
+            Console.WriteLine("Transactions:");
+            foreach (BankTransaction tran in acc.Transactions())
+            {
+                Console.WriteLine("Date/Time: {0}\tAmount: {1}", tran.When(), tran.Amount());
+            }
+            Console.WriteLine();
         }
         static void Main()
         {
