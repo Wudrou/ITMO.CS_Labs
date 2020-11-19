@@ -48,5 +48,12 @@ namespace L7._1_BankAccount
             }
             return sufficientFunds;
         }
+        public void TransferFrom(BankAccount accFrom, decimal amount)
+        {
+            if(accFrom.Withdraw(amount))
+            {
+                this.Deposit(amount);
+            }
+        }
     }
 }
