@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\bin\Debug\L6_CreateAccount.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\bin\Debug\L6_CreateAccount.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\bin\Debug\L6_CreateAccount.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\obj\Debug\L6_CreateAccount.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\obj\Debug\L6_CreateAccount.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\obj\Debug\L6_CreateAccount.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L6_CreateAccount\obj\Debug\L6_CreateAccount.pdb

@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\bin\Debug\L1.1_Greetings.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\bin\Debug\L1.1_Greetings.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\bin\Debug\L1.1_Greetings.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\obj\Debug\L1.1_Greetings.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\obj\Debug\L1.1_Greetings.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\obj\Debug\L1.1_Greetings.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.1_Greetings\obj\Debug\L1.1_Greetings.pdb

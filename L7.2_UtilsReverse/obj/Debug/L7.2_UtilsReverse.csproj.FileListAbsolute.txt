@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\bin\Debug\L7.2_UtilsReverse.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\bin\Debug\L7.2_UtilsReverse.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\bin\Debug\L7.2_UtilsReverse.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\obj\Debug\L7.2_UtilsReverse.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\obj\Debug\L7.2_UtilsReverse.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\obj\Debug\L7.2_UtilsReverse.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.2_UtilsReverse\obj\Debug\L7.2_UtilsReverse.pdb

@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\bin\Debug\L2.1_BankAccount.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\bin\Debug\L2.1_BankAccount.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\bin\Debug\L2.1_BankAccount.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\obj\Debug\L2.1_BankAccount.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\obj\Debug\L2.1_BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\obj\Debug\L2.1_BankAccount.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_BankAccount\obj\Debug\L2.1_BankAccount.pdb

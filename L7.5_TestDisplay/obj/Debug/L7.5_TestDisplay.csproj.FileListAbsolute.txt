@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\obj\Debug\L7.5_TestDisplay.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\obj\Debug\L7.5_TestDisplay.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\bin\Debug\L7.5_TestDisplay.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\bin\Debug\L7.5_TestDisplay.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\bin\Debug\L7.5_TestDisplay.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\obj\Debug\L7.5_TestDisplay.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.5_TestDisplay\obj\Debug\L7.5_TestDisplay.pdb

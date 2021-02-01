@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\obj\Debug\L7.4_InterfaceTest.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\bin\Debug\L7.4_InterfaceTest.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\bin\Debug\L7.4_InterfaceTest.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\bin\Debug\L7.4_InterfaceTest.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\obj\Debug\L7.4_InterfaceTest.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\obj\Debug\L7.4_InterfaceTest.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.4_InterfaceTest\obj\Debug\L7.4_InterfaceTest.pdb

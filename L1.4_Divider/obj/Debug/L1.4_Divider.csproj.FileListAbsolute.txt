@@ -1,0 +1,6 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\bin\Debug\L1.4_Divider.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\bin\Debug\L1.4_Divider.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\bin\Debug\L1.4_Divider.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\obj\Debug\L1.4_Divider.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\obj\Debug\L1.4_Divider.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L1.4_Divider\obj\Debug\L1.4_Divider.pdb

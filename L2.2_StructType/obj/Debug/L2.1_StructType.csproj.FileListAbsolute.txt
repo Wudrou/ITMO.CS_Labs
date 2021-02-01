@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\obj\Debug\L2.1_StructType.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\obj\Debug\L2.1_StructType.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\bin\Debug\L2.1_StructType.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\bin\Debug\L2.1_StructType.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\bin\Debug\L2.1_StructType.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\obj\Debug\L2.1_StructType.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L2.1_StructType\obj\Debug\L2.1_StructType.pdb

@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\obj\Debug\L8.1-2_Constructors.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\obj\Debug\L8.1-2_Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\bin\Debug\L8.1-2_Constructors.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\bin\Debug\L8.1-2_Constructors.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\bin\Debug\L8.1-2_Constructors.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\obj\Debug\L8.1-2_Constructors.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L8.1-2_Constructors\obj\Debug\L8.1-2_Constructors.pdb

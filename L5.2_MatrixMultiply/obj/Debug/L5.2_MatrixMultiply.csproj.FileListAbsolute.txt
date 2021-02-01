@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\bin\Debug\L5.2_MatrixMultiply.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\bin\Debug\L5.2_MatrixMultiply.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\bin\Debug\L5.2_MatrixMultiply.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\obj\Debug\L5.2_MatrixMultiply.csprojAssemblyReference.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\obj\Debug\L5.2_MatrixMultiply.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\obj\Debug\L5.2_MatrixMultiply.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L5.2_MatrixMultiply\obj\Debug\L5.2_MatrixMultiply.pdb

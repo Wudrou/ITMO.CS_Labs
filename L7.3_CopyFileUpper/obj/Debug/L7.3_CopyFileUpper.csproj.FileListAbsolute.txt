@@ -1,0 +1,6 @@
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\bin\Debug\L7.3_CopyFileUpper.exe.config
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\bin\Debug\L7.3_CopyFileUpper.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\bin\Debug\L7.3_CopyFileUpper.pdb
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\obj\Debug\L7.3_CopyFileUpper.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\obj\Debug\L7.3_CopyFileUpper.exe
+C:\Users\Дмитрий\source\repos\ITMO.SC_Labs\L7.3_CopyFileUpper\obj\Debug\L7.3_CopyFileUpper.pdb
