@@ -10,7 +10,7 @@ namespace L1._1_Greetings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Пожалуйста, введите своё имя");
+            Console.WriteLine("Пожалуйста, введите своё ИМЯ");
             string myName = Console.ReadLine();
             Console.WriteLine("Привет {0}", myName);  //также можно "Привет " + myName
 
